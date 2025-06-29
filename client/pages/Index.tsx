@@ -31,7 +31,7 @@ export default function Index() {
               </div>
               <div className="flex items-center gap-1">
                 <MapPin className="h-4 w-4 text-dental-green" />
-                <span>123 Happy Street, Smile City, CA 90210</span>
+                <span>12413 Central Ave, Chino, CA 91710</span>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -528,9 +528,9 @@ export default function Index() {
                     <div className="flex items-center gap-3">
                       <MapPin className="h-5 w-5 text-dental-green" />
                       <div>
-                        <div className="font-semibold">123 Happy Street</div>
+                        <div className="font-semibold">12413 Central Ave</div>
                         <div className="text-sm text-muted-foreground">
-                          Smile City, CA 90210
+                          Chino, CA 91710
                         </div>
                       </div>
                     </div>
@@ -671,9 +671,9 @@ export default function Index() {
                 </div>
                 <div>
                   <div className="font-semibold text-white">
-                    123 Happy Street
+                    12413 Central Ave
                   </div>
-                  <div className="text-sm">Smile City, CA 90210</div>
+                  <div className="text-sm">Chino, CA 91710</div>
                 </div>
                 <div>
                   <div className="font-semibold text-white">Office Hours</div>
