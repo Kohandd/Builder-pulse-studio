@@ -805,22 +805,72 @@ export default function Index() {
             <div>
               <h3 className="font-semibold mb-4">Services</h3>
               <div className="space-y-2 text-gray-400">
-                <div>Pediatric Dentistry</div>
-                <div>Orthodontics</div>
-                <div>Preventive Care</div>
-                <div>Emergency Care</div>
-                <div>Sedation Dentistry</div>
+                <a
+                  href="/services"
+                  className="block hover:text-dental-blue transition-colors cursor-pointer"
+                >
+                  Pediatric Dentistry
+                </a>
+                <a
+                  href="/services"
+                  className="block hover:text-dental-blue transition-colors cursor-pointer"
+                >
+                  Orthodontics
+                </a>
+                <a
+                  href="/services"
+                  className="block hover:text-dental-blue transition-colors cursor-pointer"
+                >
+                  Preventive Care
+                </a>
+                <a
+                  href="/services"
+                  className="block hover:text-dental-blue transition-colors cursor-pointer"
+                >
+                  Emergency Care
+                </a>
+                <a
+                  href="/services"
+                  className="block hover:text-dental-blue transition-colors cursor-pointer"
+                >
+                  Sedation Dentistry
+                </a>
               </div>
             </div>
 
             <div>
               <h3 className="font-semibold mb-4">Quick Links</h3>
               <div className="space-y-2 text-gray-400">
-                <div>About Us</div>
-                <div>New Patients</div>
-                <div>Insurance</div>
-                <div>Patient Forms</div>
-                <div>Contact</div>
+                <a
+                  href="#about"
+                  className="block hover:text-dental-green transition-colors cursor-pointer"
+                >
+                  About Us
+                </a>
+                <a
+                  href="/#contact"
+                  className="block hover:text-dental-green transition-colors cursor-pointer"
+                >
+                  New Patients
+                </a>
+                <a
+                  href="/insurance"
+                  className="block hover:text-dental-green transition-colors cursor-pointer"
+                >
+                  Insurance
+                </a>
+                <a
+                  href="/faq"
+                  className="block hover:text-dental-green transition-colors cursor-pointer"
+                >
+                  Patient Forms
+                </a>
+                <a
+                  href="#contact"
+                  className="block hover:text-dental-green transition-colors cursor-pointer"
+                >
+                  Contact
+                </a>
               </div>
             </div>
 
