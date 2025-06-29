@@ -503,9 +503,13 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-              What Families Are
-              <span className="text-dental-pink block">Saying About Us</span>
+              What Parents Say
             </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Don't just take our word for it. Here's what families in our
+              community have to say about their experience at SayCheese Kids
+              Dental.
+            </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -520,15 +524,14 @@ export default function Index() {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-4">
-                  "Amazing experience! My daughter was so nervous about her
-                  first visit, but the staff made her feel so comfortable. She's
-                  actually excited for her next appointment!"
+                  "My kids used to be terrified of the dentist until we found
+                  SayCheese! Now they actually look forward to their dental
+                  visit because the staff and his team are amazing with
+                  children."
                 </p>
                 <div className="text-sm">
-                  <div className="font-semibold">Sarah Johnson</div>
-                  <div className="text-muted-foreground">
-                    Parent of Emma, age 6
-                  </div>
+                  <div className="font-semibold">Sarah M.</div>
+                  <div className="text-muted-foreground">Parent of 2</div>
                 </div>
               </CardContent>
             </Card>
@@ -544,15 +547,13 @@ export default function Index() {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-4">
-                  "Dr. Martinez and her team are incredible. They made my son's
-                  orthodontic treatment so easy and stress-free. His smile looks
-                  amazing now!"
+                  "The office is so colorful and welcoming. My daughter loves
+                  the play area and the friendly staff. They take their time
+                  with her in a way she understands."
                 </p>
                 <div className="text-sm">
-                  <div className="font-semibold">Michael Chen</div>
-                  <div className="text-muted-foreground">
-                    Parent of Alex, age 12
-                  </div>
+                  <div className="font-semibold">Michael T.</div>
+                  <div className="text-muted-foreground">Father</div>
                 </div>
               </CardContent>
             </Card>
@@ -568,15 +569,14 @@ export default function Index() {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-4">
-                  "Best pediatric dental practice in the area! The office is so
-                  fun and colorful, and they really know how to work with kids.
-                  Highly recommend!"
+                  "We've been coming to SayCheese for years. Dr. Kohan is
+                  patient, kind, and truly cares about my children's dental
+                  health. The entire team makes the experience fun and
+                  stress-free."
                 </p>
                 <div className="text-sm">
-                  <div className="font-semibold">Lisa Rodriguez</div>
-                  <div className="text-muted-foreground">
-                    Parent of twins, age 8
-                  </div>
+                  <div className="font-semibold">Jennifer L.</div>
+                  <div className="text-muted-foreground">Mother of 3</div>
                 </div>
               </CardContent>
             </Card>
