@@ -164,6 +164,13 @@ export default function Index() {
             </div>
 
             <div className="relative">
+              <div className="flex justify-center mb-8">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F597fd8da2b4944148d53325a31dd2372%2F872a2028b3794e81942fb2b1d989434b?format=webp&width=800"
+                  alt="Say Cheese Kids Dental - Fun Logo"
+                  className="w-64 h-auto"
+                />
+              </div>
               <div className="grid grid-cols-2 gap-4">
                 <Card className="bg-dental-yellow/20 border-dental-yellow">
                   <CardContent className="p-6">
@@ -370,6 +377,13 @@ export default function Index() {
       <section id="services" className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
+            <div className="flex justify-center mb-8">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F597fd8da2b4944148d53325a31dd2372%2F01b0e7f7450c44b493ac7b95003cde8c?format=webp&width=800"
+                alt="Say Cheese Kids Dental & Orthodontics Banner"
+                className="w-96 h-auto"
+              />
+            </div>
             <h2 className="text-3xl lg:text-5xl font-bold mb-6">
               Comprehensive Care for
               <span className="text-dental-blue block">Growing Smiles</span>
