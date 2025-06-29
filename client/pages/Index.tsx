@@ -51,7 +51,12 @@ export default function Index() {
 
           {/* Main navigation */}
           <div className="flex justify-between items-center py-4">
-            <div className="flex items-center">
+            <div className="flex items-center gap-4">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F597fd8da2b4944148d53325a31dd2372%2F85c43e7e8f834bbfba6c1da74de3c233?format=webp&width=800"
+                alt="Say Cheese Kids Dental Logo"
+                className="h-16 w-auto"
+              />
               <div className="text-2xl font-bold">
                 <span className="text-dental-yellow">Say Cheese</span>
                 <span className="text-dental-blue ml-2">Kids Dental</span>
@@ -72,6 +77,12 @@ export default function Index() {
                 className="text-foreground hover:text-dental-blue transition-colors"
               >
                 About Us
+              </a>
+              <a
+                href="/faq"
+                className="text-foreground hover:text-dental-blue transition-colors"
+              >
+                FAQs
               </a>
               <a
                 href="#reviews"
@@ -568,6 +579,44 @@ export default function Index() {
             </div>
 
             <div>
+              <Card className="mb-8">
+                <CardContent className="p-0">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.823419475582!2d-117.68876092346258!3d34.01245261951545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c32939b2b1e7a7%3A0x1234567890abcdef!2s12413%20Central%20Ave%2C%20Chino%2C%20CA%2091710!5e0!3m2!1sen!2sus!4v1234567890123"
+                    width="100%"
+                    height="300"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="rounded-lg"
+                  ></iframe>
+                  <div className="p-6">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <h3 className="font-semibold">Our Location</h3>
+                        <p className="text-sm text-muted-foreground">
+                          12413 Central Ave, Chino, CA 91710
+                        </p>
+                      </div>
+                      <Button
+                        onClick={() =>
+                          window.open(
+                            "https://maps.google.com/maps?q=12413+Central+Ave,+Chino,+CA+91710",
+                            "_blank",
+                          )
+                        }
+                        variant="outline"
+                        size="sm"
+                        className="border-dental-blue text-dental-blue hover:bg-dental-blue hover:text-white"
+                      >
+                        Get Directions
+                      </Button>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+
               <Card>
                 <CardContent className="p-8">
                   <h3 className="text-2xl font-semibold mb-6">
