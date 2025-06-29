@@ -57,6 +57,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        dental: {
+          yellow: "hsl(var(--dental-yellow))",
+          green: "hsl(var(--dental-green))",
+          orange: "hsl(var(--dental-orange))",
+          blue: "hsl(var(--dental-blue))",
+          pink: "hsl(var(--dental-pink))",
+          purple: "hsl(var(--dental-purple))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
