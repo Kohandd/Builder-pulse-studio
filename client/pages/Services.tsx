@@ -8,7 +8,12 @@ export default function Services() {
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center py-4">
-            <div className="flex items-center">
+            <div className="flex items-center gap-4">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F597fd8da2b4944148d53325a31dd2372%2F85c43e7e8f834bbfba6c1da74de3c233?format=webp&width=800"
+                alt="Say Cheese Kids Dental Logo"
+                className="h-16 w-auto"
+              />
               <div className="text-2xl font-bold">
                 <span className="text-dental-yellow">Say Cheese</span>
                 <span className="text-dental-blue ml-2">Kids Dental</span>
@@ -28,13 +33,13 @@ export default function Services() {
                 Services
               </a>
               <a
-                href="#"
+                href="/faq"
                 className="text-foreground hover:text-dental-blue transition-colors"
               >
-                About Us
+                FAQs
               </a>
               <a
-                href="#"
+                href="/#contact"
                 className="text-foreground hover:text-dental-blue transition-colors"
               >
                 Contact
