@@ -216,23 +216,56 @@ export default function Index() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-3xl lg:text-5xl font-bold mb-6">
-                We Make Dental Visits
+                Meet Dr. Joshua Kohan
                 <span className="text-dental-yellow block">
-                  Fun & Stress-Free!
+                  Your Child's Dental Hero!
                 </span>
               </h2>
+
+              <div className="mb-6">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F597fd8da2b4944148d53325a31dd2372%2Fe66ef7bcfcf04553a346cbe484ecc415?format=webp&width=800"
+                  alt="Dr. Joshua Kohan - Pediatric Dentist"
+                  className="w-48 h-48 rounded-lg object-cover shadow-lg mb-6 lg:hidden"
+                />
+              </div>
+
               <p className="text-lg text-muted-foreground mb-6">
-                "At Say Cheese Kids Dental & Orthodontics, our mission is to
-                create positive, lifelong associations with dental care. Our
-                kid-loving staff provides excellent care in a comfortable,
-                engaging environment that makes children excited to visit!"
+                "Dr. Joshua Kohan offers a warm, relatable, and highly
+                personalized approach to pediatric dentistry. A California
+                native, Dr. Kohan earned his undergraduate degree from the
+                esteemed University of California, Los Angeles (UCLA) before
+                obtaining his Doctor of Dental Medicine (D.M.D.) degree at Nova
+                Southeastern University College of Dental Medicine, where he
+                graduated among the top of his class."
               </p>
+
+              <p className="text-lg text-muted-foreground mb-6">
+                "With over five years of experience as a lead dentist in a
+                prominent pediatric dental clinic, Dr. Kohan has delivered
+                compassionate, high-quality dental care to thousands of young
+                patients. His own experiences as a father of two young children
+                enable him to connect deeply with kids—he understands their
+                interests, favorite movies, shows, and characters, allowing him
+                to build genuine rapport and trust with each patient."
+              </p>
+
               <p className="text-lg text-muted-foreground mb-8">
-                <em>- Dr. Sarah Martinez, Pediatric Dentist</em>
+                <em>
+                  "My philosophy centers around creating enjoyable dental
+                  experiences, reducing anxiety, and building a positive
+                  foundation for lifelong oral health. I want to make dental
+                  visits comfortable, fun, and stress-free for every child."
+                </em>
+                <br />
+                <strong className="text-dental-blue">
+                  - Dr. Joshua Kohan, D.M.D.
+                </strong>
               </p>
+
               <div className="flex flex-wrap gap-4">
                 <Button className="bg-dental-green hover:bg-dental-green/90">
-                  Meet Our Team
+                  Schedule with Dr. Kohan
                 </Button>
                 <Button
                   variant="outline"
@@ -243,16 +276,47 @@ export default function Index() {
               </div>
             </div>
 
-            <div className="space-y-6">
+            <div className="hidden lg:block">
+              <div className="relative">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F597fd8da2b4944148d53325a31dd2372%2Fe66ef7bcfcf04553a346cbe484ecc415?format=webp&width=800"
+                  alt="Dr. Joshua Kohan - Pediatric Dentist"
+                  className="w-full max-w-md rounded-lg object-cover shadow-2xl"
+                />
+                <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-lg border border-dental-yellow/20">
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-dental-blue">
+                      5+
+                    </div>
+                    <div className="text-sm text-muted-foreground">
+                      Years Experience
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute -top-6 -left-6 bg-white p-6 rounded-lg shadow-lg border border-dental-green/20">
+                  <div className="text-center">
+                    <div className="text-2xl font-bold text-dental-green">
+                      1000s
+                    </div>
+                    <div className="text-sm text-muted-foreground">
+                      Happy Patients
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-6 lg:hidden">
               <Card className="border-l-4 border-l-dental-yellow">
                 <CardContent className="p-6">
                   <div className="flex items-center gap-3 mb-3">
-                    <Users className="h-6 w-6 text-dental-yellow" />
-                    <h3 className="font-semibold">Expert Team</h3>
+                    <Award className="h-6 w-6 text-dental-yellow" />
+                    <h3 className="font-semibold">UCLA Graduate</h3>
                   </div>
                   <p className="text-muted-foreground">
-                    Board-certified pediatric dentists and orthodontists who
-                    specialize in children's care.
+                    Dr. Kohan earned his undergraduate degree from UCLA and
+                    graduated among the top of his class from Nova Southeastern
+                    University.
                   </p>
                 </CardContent>
               </Card>
@@ -260,12 +324,13 @@ export default function Index() {
               <Card className="border-l-4 border-l-dental-blue">
                 <CardContent className="p-6">
                   <div className="flex items-center gap-3 mb-3">
-                    <Smile className="h-6 w-6 text-dental-blue" />
-                    <h3 className="font-semibold">Kid-Friendly Environment</h3>
+                    <Heart className="h-6 w-6 text-dental-blue" />
+                    <h3 className="font-semibold">Father & Kid Expert</h3>
                   </div>
                   <p className="text-muted-foreground">
-                    Colorful, interactive spaces designed to make kids feel
-                    comfortable and excited about dental care.
+                    As a father of two, Dr. Kohan understands children's
+                    interests, favorite characters, and how to build genuine
+                    trust and rapport.
                   </p>
                 </CardContent>
               </Card>
@@ -274,11 +339,25 @@ export default function Index() {
                 <CardContent className="p-6">
                   <div className="flex items-center gap-3 mb-3">
                     <Shield className="h-6 w-6 text-dental-green" />
-                    <h3 className="font-semibold">Advanced Technology</h3>
+                    <h3 className="font-semibold">Continuous Learning</h3>
                   </div>
                   <p className="text-muted-foreground">
-                    State-of-the-art equipment and techniques for safer, more
-                    comfortable treatments.
+                    Committed to staying at the forefront of dentistry by
+                    studying the latest advancements and technologies.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="border-l-4 border-l-dental-pink">
+                <CardContent className="p-6">
+                  <div className="flex items-center gap-3 mb-3">
+                    <Users className="h-6 w-6 text-dental-pink" />
+                    <h3 className="font-semibold">Active Lifestyle</h3>
+                  </div>
+                  <p className="text-muted-foreground">
+                    When not at the clinic, Dr. Kohan enjoys family time,
+                    basketball, snowboarding, and maintaining an active, healthy
+                    lifestyle.
                   </p>
                 </CardContent>
               </Card>
