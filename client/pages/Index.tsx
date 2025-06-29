@@ -812,7 +812,7 @@ export default function Index() {
                   Pediatric Dentistry
                 </a>
                 <a
-                  href="/services"
+                  href="/orthodontics"
                   className="block hover:text-dental-blue transition-colors cursor-pointer"
                 >
                   Orthodontics
@@ -824,13 +824,13 @@ export default function Index() {
                   Preventive Care
                 </a>
                 <a
-                  href="/services"
+                  href="/emergency-care"
                   className="block hover:text-dental-blue transition-colors cursor-pointer"
                 >
                   Emergency Care
                 </a>
                 <a
-                  href="/services"
+                  href="/sedation-dentistry"
                   className="block hover:text-dental-blue transition-colors cursor-pointer"
                 >
                   Sedation Dentistry
@@ -860,7 +860,7 @@ export default function Index() {
                   Insurance
                 </a>
                 <a
-                  href="/faq"
+                  href="/patient-forms"
                   className="block hover:text-dental-green transition-colors cursor-pointer"
                 >
                   Patient Forms
