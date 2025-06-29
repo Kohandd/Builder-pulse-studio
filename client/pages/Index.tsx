@@ -79,6 +79,12 @@ export default function Index() {
                 About Us
               </a>
               <a
+                href="/insurance"
+                className="text-foreground hover:text-dental-blue transition-colors"
+              >
+                Insurance
+              </a>
+              <a
                 href="/faq"
                 className="text-foreground hover:text-dental-blue transition-colors"
               >
