@@ -529,9 +529,14 @@ export default function Index() {
                   visit because the staff and his team are amazing with
                   children."
                 </p>
-                <div className="text-sm">
-                  <div className="font-semibold">Sarah M.</div>
-                  <div className="text-muted-foreground">Parent of 2</div>
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 bg-dental-pink rounded-full flex items-center justify-center text-white font-semibold">
+                    S
+                  </div>
+                  <div className="text-sm">
+                    <div className="font-semibold">Sarah M.</div>
+                    <div className="text-muted-foreground">Parent of 2</div>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -551,9 +556,14 @@ export default function Index() {
                   the play area and the friendly staff. They take their time
                   with her in a way she understands."
                 </p>
-                <div className="text-sm">
-                  <div className="font-semibold">Michael T.</div>
-                  <div className="text-muted-foreground">Father</div>
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 bg-dental-orange rounded-full flex items-center justify-center text-white font-semibold">
+                    M
+                  </div>
+                  <div className="text-sm">
+                    <div className="font-semibold">Michael T.</div>
+                    <div className="text-muted-foreground">Father</div>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -574,9 +584,14 @@ export default function Index() {
                   health. The entire team makes the experience fun and
                   stress-free."
                 </p>
-                <div className="text-sm">
-                  <div className="font-semibold">Jennifer L.</div>
-                  <div className="text-muted-foreground">Mother of 3</div>
+                <div className="flex items-center gap-3">
+                  <div className="w-10 h-10 bg-dental-purple rounded-full flex items-center justify-center text-white font-semibold">
+                    J
+                  </div>
+                  <div className="text-sm">
+                    <div className="font-semibold">Jennifer L.</div>
+                    <div className="text-muted-foreground">Mother of 3</div>
+                  </div>
                 </div>
               </CardContent>
             </Card>
