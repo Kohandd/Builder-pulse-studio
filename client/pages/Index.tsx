@@ -142,7 +142,7 @@ export default function Index() {
                   ))}
                 </div>
                 <span className="text-sm text-muted-foreground">
-                  5.0 Stars (847 Reviews)
+                  5.0 Stars&nbsp;
                 </span>
               </div>
 
@@ -579,10 +579,9 @@ export default function Index() {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-4">
-                  "We've been coming to SayCheese for years. Dr. Kohan is
-                  patient, kind, and truly cares about my children's dental
-                  health. The entire team makes the experience fun and
-                  stress-free."
+                  "Dr. Kohan is patient, kind, and truly cares about my
+                  children's dental health. The entire team makes the experience
+                  fun and stress-free."
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-dental-purple rounded-full flex items-center justify-center text-white font-semibold">
