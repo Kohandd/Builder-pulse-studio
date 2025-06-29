@@ -62,7 +62,7 @@ export default function Index() {
             </div>
             <nav className="hidden md:flex items-center gap-8">
               <a
-                href="#services"
+                href="/services"
                 className="text-foreground hover:text-dental-blue transition-colors"
               >
                 Services
