@@ -42,6 +42,12 @@ export default function FAQ() {
               >
                 Services
               </a>
+              <a
+                href="/insurance"
+                className="text-foreground hover:text-dental-blue transition-colors"
+              >
+                Insurance
+              </a>
               <a href="#" className="text-dental-blue font-semibold">
                 FAQs
               </a>
