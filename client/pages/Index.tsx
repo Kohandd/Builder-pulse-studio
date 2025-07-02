@@ -27,7 +27,7 @@ export default function Index() {
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-1">
                 <Phone className="h-4 w-4 text-dental-blue" />
-                <span>(555) SAY-KIDS</span>
+                <span>(909) 479-6030</span>
               </div>
               <div className="flex items-center gap-1">
                 <MapPin className="h-4 w-4 text-dental-green" />
@@ -642,7 +642,7 @@ export default function Index() {
                     <div className="flex items-center gap-3">
                       <Phone className="h-5 w-5 text-dental-blue" />
                       <div>
-                        <div className="font-semibold">(555) SAY-KIDS</div>
+                        <div className="font-semibold">(909) 479-6030</div>
                         <div className="text-sm text-muted-foreground">
                           Call or text anytime
                         </div>
@@ -878,7 +878,7 @@ export default function Index() {
               <h3 className="font-semibold mb-4">Contact Info</h3>
               <div className="space-y-3 text-gray-400">
                 <div>
-                  <div className="font-semibold text-white">(555) SAY-KIDS</div>
+                  <div className="font-semibold text-white">(909) 479-6030</div>
                   <div className="text-sm">Call or text anytime</div>
                 </div>
                 <div>
@@ -889,11 +889,7 @@ export default function Index() {
                 </div>
                 <div>
                   <div className="font-semibold text-white">Office Hours</div>
-                  <div className="text-sm">
-                    Mon-Fri: 8AM-5PM
-                    <br />
-                    Sat: 8AM-2PM
-                  </div>
+                  <div className="text-sm">Mon-Fri: 8AM-5PM</div>
                 </div>
               </div>
             </div>
