@@ -17,17 +17,17 @@ export default function SedationDentistry() {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 border-b">
         <div className="container mx-auto px-4">
-          <div className="flex justify-between items-center py-6 pb-[22px] -mb-[3px]">
-            <div className="flex items-center gap-4">
+          <div className="flex justify-between items-center py-8 pb-[26px] -mb-[4px]">
+            <div className="flex items-center gap-6">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F597fd8da2b4944148d53325a31dd2372%2F85c43e7e8f834bbfba6c1da74de3c233?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2F597fd8da2b4944148d53325a31dd2372%2Fcc9196d4a3ee480c97bce67e08951f07?format=webp&width=800"
                 alt="Say Cheese Kids Dental Logo"
-                className="h-16 w-auto"
+                className="h-20 w-auto"
               />
-              <div className="text-2xl font-bold">
+              <div className="text-3xl font-bold">
                 <span className="text-dental-yellow">Say Cheese</span>
                 <span className="text-dental-blue ml-2">Kids Dental</span>
-                <div className="text-sm font-normal text-dental-green">
+                <div className="text-base font-normal text-dental-green">
                   & Orthodontics
                 </div>
               </div>
