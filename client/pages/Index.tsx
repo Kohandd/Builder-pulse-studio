@@ -50,7 +50,7 @@ export default function Index() {
           </div>
 
           {/* Main navigation */}
-          <div className="flex justify-between items-center py-4">
+          <div className="flex justify-between items-center py-6 pb-[22px] -mb-[3px]">
             <div className="flex items-center gap-4">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2F597fd8da2b4944148d53325a31dd2372%2F85c43e7e8f834bbfba6c1da74de3c233?format=webp&width=800"
