@@ -306,16 +306,6 @@ export default function Index() {
                     </div>
                   </div>
                 </div>
-                <div className="absolute -top-6 -left-6 bg-white p-6 rounded-lg shadow-lg border border-dental-green/20">
-                  <div className="text-center">
-                    <div className="text-2xl font-bold text-dental-green">
-                      1000s
-                    </div>
-                    <div className="text-sm text-muted-foreground">
-                      Happy Patients
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
 
